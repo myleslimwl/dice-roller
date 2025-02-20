@@ -22,3 +22,10 @@ button:hover {
 button:active {
   background-color: red;
 }
+
+input {
+  font-size: 2rem;
+  width: 150px;
+  font-weight: bold;
+  text-align: center;
+}
