@@ -9,9 +9,9 @@ function rollDice() {
   for (let i = 0; i < diceCount; i++) {
     const randomValue = Math.floor(Math.random() * 6) + 1;
     values.push(randomValue);
-    images.push(`images/dice${randomValue}.png`);
+    images.push(`<img src="dice_images/dice_${randomValue}.png">`);  
   }
 
   diceResult.textContent = `dice: ${values.join(", ")}`;
-  diceImage.innerHTML = values.join("");
+  diceImage.innerHTML = images.join("");
 }
