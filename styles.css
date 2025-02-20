@@ -29,3 +29,12 @@ input {
   font-weight: bold;
   text-align: center;
 }
+
+#diceResult {
+  margin: 25px;
+}
+
+#diceImage img{
+  width: 150px;
+  margin: 5px;
+}
